@@ -1,0 +1,93 @@
+.header {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: darkblue;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 30px;
+}
+
+.header a{
+  color:white;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 98vw;
+  height: 98vh;
+  background-color: lightblue;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-left: 40vw;
+}
+
+
+
+.formAdd {
+  background-color: gainsboro;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  gap: 5px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
+  padding: 30px;
+  margin-top: 10vh;
+}
+
+.postContent , .mainPostExpanded {
+  background-color: gainsboro;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra horizontalmente */
+  text-align: justify-all;
+  gap: 5px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
+  padding: 30px;
+  margin: 10vh auto;
+}
+
+.postContent p{
+  font-size: large;
+}
+
+.authorDate {
+  display:flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.input {
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  font-size: 13px;
+}
+
+.button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #007bff;
+  cursor: pointer;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
+}
+
