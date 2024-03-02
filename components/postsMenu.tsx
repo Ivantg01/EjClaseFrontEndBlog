@@ -22,7 +22,7 @@ const PostsMenu: FunctionComponent<PostProps[]> = (props) =>{
             <div class="postContent">
                 <h1>POSTS</h1>
                     {dataPost.posts.map((post) => (
-                        <a href={`/post/${post.id}`}><p>{post.tittle} {post.tittle} {post.date.toLocaleDateString()}</p></a>
+                        <a href={`/post/${post.id}`}><p>{post.tittle} {post.author} {post.date.toLocaleDateString()}</p></a>
                     ))}
             </div>
         )
